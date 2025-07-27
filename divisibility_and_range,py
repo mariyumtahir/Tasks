@@ -1,0 +1,12 @@
+'''
+Q39: Write a program that asks for a number and checks if it's both divisible by 2 and greater 
+than 10. If true, print "Even number greater than 10". If it's divisible by 2 but not greater than 10, 
+print "Even number not greater than 10". If it’s not divisible by 2, print "Not divisible by 2". 
+'''
+number = int(input("Enter a number: "))
+if number % 2 == 0 and number > 10:
+    print("Even number greater than 10")
+elif number % 2 == 0:
+    print("Even number not greater than 10")
+else:
+    print("Not divisible by 2")
