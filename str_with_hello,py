@@ -1,0 +1,9 @@
+'''
+Q32: Write a program that takes a string input and checks if it starts with "Hello". If it does, print 
+"Starts with Hello!", else print "Doesn’t start with Hello". 
+'''
+text = input("Enter a string: ")
+if text.startswith("Hello"):
+    print("Starts with Hello!")
+else:
+    print("Doesn’t start with Hello")

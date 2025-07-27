@@ -1,0 +1,8 @@
+'''
+Q18: Write a program that checks if a number is either less than 5 or greater than 15 using OR. 
+Print "Valid" if it is. 
+'''
+number = 4
+
+if number < 5 or number > 15:
+    print ("Valid")
